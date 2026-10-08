@@ -4,8 +4,7 @@
 int main()
 {
     uint8_t REG =   0b10111110;
-  
-
+    REG |= (0<<3);
     if (REG & (1<<3)){
         printf("Bit 3 = 1\n");
     }
